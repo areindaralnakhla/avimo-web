@@ -27,7 +27,7 @@
         <p class="degree-info">Master's thesis</p>
         <p class="program-name">Imaging and Lighting Extended Reality (IMLEX)</p>
       </div>
-      
+
       <!-- Logos Section -->
       <div class="hero-logos">
         <div class="logo-item">
@@ -65,6 +65,17 @@
             Our evaluation demonstrates that the proposed pipeline balances speed, accuracy, and surface quality, making it well-suited for downstream applications such as <span class="highlight">motion retargeting</span>, <span class="highlight purple">immersive media</span>, and the <span class="highlight purple">preservation of cultural performances</span>.
           </p>
         </div>
+
+        <!-- Thesis + GitHub links (added in Abstract) -->
+        <div class="abstract-links" style="margin-top:1rem; display:flex; gap:0.75rem; align-items:center; flex-wrap:wrap;">
+          <a href="https://erepo.uef.fi/items/dff9bc7c-a0aa-45c9-86ac-4b787b947cf4" target="_blank" rel="noopener noreferrer" class="thesis-btn" aria-label="Read full master thesis (opens in new tab)" style="display:inline-block; padding:0.5rem 0.9rem; background:#1a73e8; color:#fff; text-decoration:none; border-radius:6px; font-size:0.95rem;">
+            Read the full master thesis
+          </a>
+          <a href="https://github.com/areindaralnakhla/AViMO" target="_blank" rel="noopener noreferrer" class="repo-btn" aria-label="Open GitHub repository (opens in new tab)" style="display:inline-block; padding:0.5rem 0.9rem; background:#24292e; color:#fff; text-decoration:none; border-radius:6px; font-size:0.95rem;">
+            View the GitHub repo
+          </a>
+        </div>
+
       </div>
     </div>
   </section>
@@ -383,6 +394,7 @@
   </section>
 
   <!-- ================= RESULTS SECTION ================= -->
+
   <section class="section gray" id="results">
     <div class="container">
       <div class="section-title">
@@ -466,7 +478,19 @@
       </div>
       
     </div>
+
+
+      <!-- Comparison table image (added below existing results videos) -->
+      <div class="results-comparison" style="margin-top:3rem; text-align:center;">
+        <figure>
+          <img src="figures/results_avimo.png" alt="Comparison table showing AViMO vs other models" style="max-width:100%; height:auto;">
+          <figcaption style="font-size:0.9rem; color:#666; margin-top:0.5rem;">
+            Quantitative comparison of AViMO with other models.
+          </figcaption>
+        </figure>
+      </div>
   </section>
+
 
   <!-- ================= EXPANDABLE GIF MODAL ================= -->
   <div id="gif-modal" class="gif-modal-overlay">
